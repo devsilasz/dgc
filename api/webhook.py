@@ -29,4 +29,6 @@ def webhook():
 
     return jsonify({"status": "success"}), 200
 
-# O Vercel automaticamente cuida do servidor, não é necessário rodar app.run()
+#Vercel exportando app
+from vercel import Vercel
+app = Vercel(app)
