@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Configurações
-API_KEY_TICTO = "9dba0303-6274-4c63-b3e3-1d69668e1c6b"
+API_KEY_TICTO = "o3s65WJqNkl5kXqSiav4eb9gYMVM4qPAstY97T0QDpOEdqyLaqPoDwp7k70RwVTZ92NIUqRUrbVzLLLZ04EKeRM0IDfuyn8AJnpw"
 
 # Endpoint do Webhook
 @app.route('/webhook', methods=['POST'])
