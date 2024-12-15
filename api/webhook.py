@@ -29,6 +29,4 @@ def webhook():
 
     return jsonify({"status": "success"}), 200
 
-# Exporta o app Flask
-if __name__ == "__main__":
-    app.run()
+# O Vercel automaticamente cuida do servidor, não é necessário rodar app.run()
